@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1> Do you wanna play with me?</h1>
+        <h1> معليش تلعب معايا؟؟</h1>
+        <img class="main-img" src="cat.jpeg" >
+        <div class="no">
+            <button> NO </button>
+        </div>
+        <button class="yes">YES</button>
+       <img src="tanku.png" alt="" class="thanku">
+       <img src="killu.png" alt="" class="killu">
+
+    </div>
+
+
+    <script>
+
+                document.querySelector(".yes").addEventListener("click" , function(){
+                     document.querySelector(".thanku").style.opacity = "1";
+                    alert("thank u A zin <3 مي عقزت نكمل اللعبة " );
+                       setTimeout(() => {
+                        document.querySelector(".thanku").style.opacity = "0";
+                    }, 2000);             
+                   })
+
+                   document.querySelector(".no").addEventListener("click" , function(){
+                     document.querySelector(".killu").style.opacity = "1";
+                    alert("فرحان بروحك ياك " );
+                       setTimeout(() => {
+                        document.querySelector(".killu").style.opacity = "0";
+                    }, 3000);             
+                   })
+    </script>
+</body>
+</html>
