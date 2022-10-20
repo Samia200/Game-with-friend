@@ -19,8 +19,9 @@
 
 }
 .main .main-img {
-    width: 90%;
-    margin: 2rem 0;
+     width: 60%;
+    display: block;
+    margin: 2rem 4rem;
     border: dashed #eddac2 3px;
     box-shadow: rgba(0, 0, 0, 0.64) -5px 5px 15px 5px;
 }
